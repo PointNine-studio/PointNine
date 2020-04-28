@@ -14,6 +14,6 @@ window.addEventListener('load', () =>{
             let color = colors[i]
             color.classList.remove(...[...color.classList].filter(n => n.indexOf('start') !== -1))
         }
-    }, 2000)
+    }, 1200)
 
 })
